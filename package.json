@@ -1,0 +1,27 @@
+{
+  "name": "components_todo",
+  "version": "1.0.0",
+  "description": "simple todo application application for task management",
+  "main": "main.js",
+  "dependencies": {
+    "node-static": "^0.7.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "jshint *.js",
+    "test": "echo \"Error: no test spesified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olgaborzenkova/components_todo.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "olgabo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olgaborzenkova/components_todo/issues"
+  },
+  "homepage": "https://github.com/olgaborzenkova/components_todo#readme"
+}
