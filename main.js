@@ -1,4 +1,9 @@
 (function () {
 	'use strict';
-	alert('Hi!');
+
+	let Todo = window.Todo;
+
+	new Todo({
+		elem: document.querySelector('.todo__list')
+	});
 })();

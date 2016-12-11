@@ -3,11 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Todo</title>
+		<link rel="stylesheet" href="./components/todo/todo.css">
+		<link rel="stylesheet" href="./main.css">
 	</head>
 	<body>
 		<div class="todo">
+			<div class="todo__list"></div>
 
+			<div class="todo__form">
+				<input class="todo__form_name" type="text" value="Name">
+				<input class="todo__form_description" type="text" value="Description">
+				<button class="todo__form_submit_btn" type="submit">Add new task</button>
+			</div>
 		</div>
+		<script src="./components/todo/todo.js"></script>
 		<script src="./main.js"></script>
 	</body>
 </html>
