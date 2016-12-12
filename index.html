@@ -1,13 +1,14 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<meta charset="utf-8">
 		<title>Todo</title>
-		<link rel="stylesheet" href="./components/todo/todo.css">
-		<link rel="stylesheet" href="./main.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="./components/todo/todo.css">
+		<link rel="stylesheet" type="text/css" href="./main.css">
 	</head>
 	<body>
-		<div class="todo">
+		<div class="app">
 			<div class="todo__list"></div>
 
 			<div class="todo__form">
@@ -16,7 +17,12 @@
 				<button class="todo__form_submit_btn" type="submit">Add new task</button>
 			</div>
 		</div>
-		<script src="./components/todo/todo.js"></script>
-		<script src="./main.js"></script>
+
+		<!-- Dependencies -->
+		<script type="text/javascript" src="./components/todo/todo.js"></script>
+		<script type="text/javascript" src="./main.js"></script>
+
+		<!-- Application -->
+		<script type="text/javascript" src="./components/app/app.js"></script>
 	</body>
 </html>
